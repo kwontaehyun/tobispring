@@ -1,9 +1,15 @@
 package springprj;
 
+// OCP 개방폐쇄원칙 확장 변경 
+// DI 
+// IOC 
+
 public class User {
 	String id;
 	String name;
 	String password;
+	String aaa; 
+	
 	
 	public String getId() {
 		return id;
