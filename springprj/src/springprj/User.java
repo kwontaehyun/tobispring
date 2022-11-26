@@ -8,7 +8,16 @@ public class User {
 	String id;
 	String name;
 	String password;
-	String aaa; 
+	String aaa;
+	private int level; 
+	
+	 private static final int BASIC = 1;
+     private static final int SILVER = 2;
+     private static final int GOLD = 3;
+
+     public void setLevel(int level){
+             this.level = level;
+     }
 	
 	
 	public String getId() {
